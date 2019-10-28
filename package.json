@@ -1,5 +1,5 @@
 {
-  "name": "@usemobile/use",
+  "name": "@usemobile_br/use",
   "version": "1.0.0-beta.1",
   "description": "A container of configuration files containing prettier, eslint and stylelint",
   "main": "dist/index.js",
@@ -11,6 +11,9 @@
   "files": [
     "dist"
   ],
+  "publishConfig": {
+    "access": "public"
+  },
   "author": "Highlander Paiva <highlander.vilela@usemobile.xyz>",
   "license": "ISC",
   "keywords": [
@@ -20,7 +23,14 @@
     "ant",
     "design",
     "pro"
-  ],
+  ],"repository": {
+    "type": "git",
+    "url": "git+https://github.com/usemobile/use"
+  },
+  "bugs": {
+    "url": "https://github.com/usemobile/use/issues"
+  },
+  "homepage": "https://github.com/usemobile/use#readme",
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^1.4.2",
     "@typescript-eslint/parser": "canary",

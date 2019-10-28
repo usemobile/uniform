@@ -6,7 +6,7 @@ A collection of configuration files containing prettier, eslint and stylelint.
 
 Install:
 ```
-yarn add -D @usemobile/use
+yarn add -D @usemobile_br/use
 ```
 
 Import in eslint _(.eslintrc.js)_:
