@@ -11,14 +11,14 @@ yarn add -D @usemobile_br/use
 
 Import in eslint _(.eslintrc.js)_:
 ```js
-const { eslint } = require('@usemobile/use');
+const { eslint } = require('@usemobile_br/use');
 
 module.exports = eslint;
 ```
 
 Import in prettier _(.prettierrc.js)_:
 ```js
-const { prettier } = require('@usemobile/use');
+const { prettier } = require('@usemobile_br/use');
 
 module.exports = {
   ...prettier,
@@ -27,7 +27,7 @@ module.exports = {
 
 Import in prettier _(.stylelintrc.js)_:
 ```js
-const { stylelint } = require('@usemobile/use');
+const { stylelint } = require('@usemobile_br/use');
 
 module.exports = {
   ...stylelint,
