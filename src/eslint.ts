@@ -1,5 +1,4 @@
 import * as path from "path";
-import * as fs from "fs";
 
 const eslintFolder = path.join(path.dirname(require.resolve("eslint")), "..");
 
@@ -8,9 +7,6 @@ const moduleResolverPath = path.join(
   "lib/shared/relative-module-resolver"
 );
 const ModuleResolver = require(moduleResolverPath);
-const prettierOptions = JSON.parse(
-  fs.readFileSync(path.resolve(eslintFolder, ".prettierrc"), "utf8")
-);
 
 ModuleResolver.resolve = function(moduleName: string) {
   return require.resolve(moduleName);
@@ -20,7 +16,7 @@ module.exports = {
   extends: ["airbnb", "prettier", "prettier/react"].map(key =>
     require.resolve(`eslint-config-${key}`)
   ),
-  plugins: ["prettier", "eslint-comments", "jest", "unicorn", "react-hooks"],
+  plugins: ["eslint-comments", "jest", "unicorn", "react-hooks"],
   env: {
     browser: true,
     node: true,
@@ -40,7 +36,6 @@ module.exports = {
     "no-console": 1,
     "no-unused-vars": 2,
     "prefer-template": 2,
-    "prettier/prettier": ["error", prettierOptions],
     "react/jsx-wrap-multilines": 0,
     "react/prop-types": 0,
     "react/forbid-prop-types": 0,
