@@ -32,8 +32,6 @@ module.exports = {
     "react/prop-types": 0,
     "react/forbid-prop-types": 0,
     "react/jsx-one-expression-per-line": 0,
-    "react/sort-comp": 0,
-
     "generator-star-spacing": 0,
     "function-paren-newline": 0,
     "import/no-unresolved": [1, { ignore: ["^@/", "^umi/"] }],
@@ -83,7 +81,47 @@ module.exports = {
     "implicit-arrow-linebreak": 0,
     "operator-linebreak": 0,
     "no-mixed-operators": "warn",
-    "comma-dangle": 0
+    "comma-dangle": 0,
+
+    // Project preferences
+    "class-methods-use-this": 0,
+    "import/imports-first": 0,
+    "import/no-dynamic-require": 0,
+    "import/no-named-as-default": 0,
+    "import/no-webpack-loader-syntax": 0,
+    "import/no-named-as-default-member": 0,
+    "import/named": 0,
+    indent: [2, 2, { SwitchCase: 1 }],
+    "jsx-a11y/aria-props": 2,
+    "jsx-a11y/heading-has-content": 0,
+    "jsx-a11y/label-has-associated-control": [
+      2,
+      {
+        // NOTE: If this error triggers, either disable it or add
+        // your custom components, labels and attributes via these options
+        // See https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/label-has-associated-control.md
+        controlComponents: ["Input"]
+      }
+    ],
+    "jsx-a11y/label-has-for": 0,
+    "jsx-a11y/mouse-events-have-key-events": 2,
+    "jsx-a11y/role-has-required-aria-props": 2,
+    "jsx-a11y/role-supports-aria-props": 2,
+    "no-console": 1,
+    "no-unused-vars": 2,
+    "prefer-template": 2,
+    "react/jsx-props-no-spreading": 0,
+    "react/jsx-closing-tag-location": 0,
+    "react/jsx-first-prop-new-line": [2, "multiline"],
+    "react/jsx-no-target-blank": 0,
+    "react/jsx-uses-vars": 2,
+    "react/require-default-props": 0,
+    "react/require-extension": 0,
+    "react/sort-comp": 0,
+    "react/static-property-placement": 0,
+    "redux-saga/no-yield-in-race": 2,
+    "redux-saga/yield-effects": 2,
+    "require-yield": 0
   },
   settings: {
     "import/resolver": { node: { extensions: [".js", ".jsx", ".ts", ".tsx"] } }
