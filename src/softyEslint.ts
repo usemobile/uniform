@@ -71,9 +71,6 @@ module.exports = {
     ],
     // Common abbreviations are known and readable
     "unicorn/prevent-abbreviations": "off",
-    "@typescript-eslint/explicit-member-accessibility": 0,
-    "@typescript-eslint/interface-name-prefix": 0,
-    "@typescript-eslint/no-non-null-assertion": 0,
     "import/no-cycle": 0,
     "react-hooks/rules-of-hooks": "warn", // Checks rules of Hooks
     "react/no-array-index-key": "warn",
