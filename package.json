@@ -1,10 +1,9 @@
 {
   "name": "@usemobile_br/use",
-  "version": "1.0.0-beta.5",
+  "version": "1.0.0",
   "description": "A container of configuration files containing prettier, eslint and stylelint",
   "main": "dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",
     "prepublishOnly": "npm run build"
   },
@@ -19,10 +18,7 @@
   "keywords": [
     "eslint",
     "prettier",
-    "antd",
-    "ant",
-    "design",
-    "pro"
+    "stylelint"
   ],
   "repository": {
     "type": "git",
