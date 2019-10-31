@@ -13,7 +13,9 @@ Import in eslint _(.eslintrc.js)_:
 ```js
 const { eslint } = require('@usemobile_br/use');
 
-module.exports = eslint;
+module.exports = {
+  ...eslint
+};
 ```
 
 Import in prettier _(.prettierrc.js)_:
@@ -25,7 +27,7 @@ module.exports = {
 };
 ```
 
-Import in prettier _(.stylelintrc.js)_:
+Import in stylelint _(.stylelintrc.js)_:
 ```js
 const { stylelint } = require('@usemobile_br/use');
 

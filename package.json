@@ -23,7 +23,8 @@
     "ant",
     "design",
     "pro"
-  ],"repository": {
+  ],
+  "repository": {
     "type": "git",
     "url": "git+https://github.com/usemobile/use"
   },
