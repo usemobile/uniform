@@ -15,7 +15,7 @@ ModuleResolver.resolve = function(moduleName: string) {
 };
 
 module.exports = {
-  extends: ["airbnb", "prettier", "prettier/react", ,].map(key =>
+  extends: ["airbnb", "prettier", "prettier/react"].map(key =>
     require.resolve(`eslint-config-${key}`)
   ),
   plugins: ["eslint-comments", "jest", "unicorn", "react-hooks"],
