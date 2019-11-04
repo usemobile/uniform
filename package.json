@@ -1,6 +1,6 @@
 {
   "name": "@usemobile_br/use",
-  "version": "2.0.0-rc.1",
+  "version": "2.0.0",
   "description": "A container of configuration files containing prettier, eslint and stylelint",
   "main": "index.js",
   "scripts": {},
