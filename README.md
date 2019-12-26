@@ -1,4 +1,4 @@
-# Use configs
+# Uniform
 
 A collection of configuration files containing prettier, eslint and stylelint.
 
@@ -6,12 +6,12 @@ A collection of configuration files containing prettier, eslint and stylelint.
 
 Install:
 ```
-yarn add -D @usemobile_br/use
+yarn add -D @usemobile_br/uniform
 ```
 
 Import in eslint _(.eslintrc.js)_:
 ```js
-const { eslint } = require('@usemobile_br/use');
+const { eslint } = require('@usemobile_br/uniform');
 
 module.exports = {
   ...eslint
@@ -20,7 +20,7 @@ module.exports = {
 
 Import in prettier _(.prettierrc.js)_:
 ```js
-const { prettier } = require('@usemobile_br/use');
+const { prettier } = require('@usemobile_br/uniform');
 
 module.exports = {
   ...prettier,
@@ -29,7 +29,7 @@ module.exports = {
 
 Import in stylelint _(.stylelintrc.js)_:
 ```js
-const { stylelint } = require('@usemobile_br/use');
+const { stylelint } = require('@usemobile_br/uniform');
 
 module.exports = {
   ...stylelint,

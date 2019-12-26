@@ -1,6 +1,6 @@
 {
-  "name": "@usemobile_br/use",
-  "version": "2.1.0",
+  "name": "@usemobile_br/uniform",
+  "version": "2.2.0",
   "description": "A container of configuration files containing prettier, eslint and stylelint",
   "main": "index.js",
   "scripts": {},
@@ -12,7 +12,7 @@
     "access": "public"
   },
   "author": "Highlander Paiva <highlander.vilela@usemobile.xyz>",
-  "license": "ISC",
+  "license": "MIT",
   "keywords": [
     "eslint",
     "prettier",
@@ -20,12 +20,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/usemobile/use"
+    "url": "git+https://github.com/usemobile/uniform"
   },
   "bugs": {
-    "url": "https://github.com/usemobile/use/issues"
+    "url": "https://github.com/usemobile/uniform/issues"
   },
-  "homepage": "https://github.com/usemobile/use#readme",
+  "homepage": "https://github.com/usemobile/uniform#readme",
   "dependencies": {
     "eslint": "^6.6.0",
     "eslint-config-airbnb": "^18.0.1",
