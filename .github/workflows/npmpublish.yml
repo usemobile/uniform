@@ -3,9 +3,6 @@ name: Node.js Package
 on:
   release:
     types: [created]
-  push:
-    branches:
-      - master
 
 jobs:
   build:
@@ -41,7 +38,7 @@ jobs:
         with:
           node-version: 12
           registry-url: https://npm.pkg.github.com/
-          scope: ${{secrets.GITHUB_PUBLISHER}}
+          scope: '@hvpaiva'
       - run: yarn
       - run: npm publish
         env:
